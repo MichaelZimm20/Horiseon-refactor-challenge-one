@@ -1,3 +1,5 @@
+
+/*Overall Body Style*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,41 +7,82 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #ffffff;
 }
+/*Overall Body Style END*/
 
-.header {
-    padding: 20px;
+
+
+
+/*Header Style*/
+header {
+    padding: 20px 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
-    display: inline-block;
+header h1 {
+    display: inline;
     font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+header span {
+    color: #b0e0fa; /*#d9dcd6*/
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+header nav {
+    margin: 10px 0;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-weight: lighter;
+}
+
+/*Header Style END*/
+
+
+
+
+
+/*Footer style */
+footer {
+    padding: 20px 15px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: #4C7D9E;
+    color:#ffffff;
+}
+
+footer h2 {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+footer div {
+    text-align: center;
+    line-height: 1.5;
 }
+/*Footer style END */
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+
+
+
+
+
+/*Links and Paragraph Initial style */
 
 a {
     color: #ffffff;
@@ -50,14 +93,30 @@ p {
     font-size: 16px;
 }
 
+/*Links and Paragraph Initial style END */
+
+
+
+
+
+
+/*Hero style */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
+    height: 800px;
+    margin-bottom: 30px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+/*Hero style END */
+
+
+
+
+
+
+/*Content Section style, moved all content styles together */
 
 .float-left {
     float: left;
@@ -75,6 +134,69 @@ p {
     margin-left: 20px;
 }
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Content Section style END*/
+
+
+
+
+
+
+
+/*Benefits Section style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,67 +256,9 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/*Benefits Section style END */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
