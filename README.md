@@ -63,9 +63,11 @@ To view the latest source of the GIT server in VS code do this:
 ## Website Screenshots 
 
 ![Horiseon screenshots](./assets/images/screenshot1.png "Initial Page View") 
-
+<br/>
 ![Horiseon screenshots](./assets/images/screenshot2.png "Title and Nav Bar")
+<br/>
 
 ![Horiseon screenshots](./assets/images/screenshot3.png "Top Page View") 
+<br/>
 
-![Horiseon screenshots](./assets/images/screenshot.png "Bottom Page View and Footer") 
+![Horiseon screenshots](./assets/images/screenshot4.png "Bottom Page View and Footer") 
