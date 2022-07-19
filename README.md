@@ -51,7 +51,8 @@ THEN I find a concise, descriptive title
 
     https://github.com/MichaelZimm20/html-css-challenge-one
 
-    http://127.0.0.1:5500/
+    https://michaelzimm20.github.io/Horiseon-refactor-challenge-one/
+    
 
 
 ## Git
