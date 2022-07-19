@@ -15,6 +15,8 @@ body {
 
 
 
+
+
 /*Header Style*/
 header {
     padding: 20px 35px;
@@ -59,14 +61,16 @@ header nav ul li {
 
 
 
+
 /*Footer style */
 footer {
-    padding: 20px 15px;
+    padding: 10px 15px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background: #4C7D9E;
     color:#ffffff;
+
 }
 
 footer h2 {
@@ -97,6 +101,9 @@ footer div {
 
 
 
+
+
+
 /* Text-Align  NEED TO ADD IN HTML*/
 .text-left {
     text-align: left;
@@ -105,6 +112,11 @@ footer div {
 .text-right {
         text-align: right;
 }
+/* Text-Align  NEED TO ADD IN HTML END */
+
+
+
+
 
 
 
@@ -125,12 +137,11 @@ footer div {
     overflow: auto;
 }
 
-.contents img {
-    width: 35%;
-    float: left;
-    
 
+.contents img {
+    width: 35%; 
 }
+
 
 .content-info {
     padding: 40px;
@@ -139,6 +150,7 @@ footer div {
 
 }
 
+
 .content-info h2 {
     margin-bottom: 20px;
     font-size: 55px;
@@ -146,12 +158,26 @@ footer div {
     text-shadow: #000000 65px;
 }
 
+
 .content-info p {
     font-size: 25px; 
     line-height: 1.5;
  }
 
+
+ .img-left {
+    float: left;
+
+
+ }
+
+ .img-right {
+    float: right;
+ }
+
 /*Content Section style END*/
+
+
 
 
 
@@ -173,14 +199,17 @@ padding: 25px 0 15px 0;
 margin: auto;
 
 }
-
-
 /* End Overall Section & Border Style */
 
 
 
 
+
+
+
+
 /*Benefits Section style */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -193,14 +222,14 @@ margin: auto;
 }
 
 .benefits div {
-    margin-bottom: 32px;
+    margin-bottom: 10px;
 
 }
 
 .benefits img {
     display: inline-block;
     margin: auto;
-    max-width: 200px;
+    max-width: 160px;
 }
 
 .benefits p {
