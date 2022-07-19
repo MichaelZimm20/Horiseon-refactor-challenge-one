@@ -49,10 +49,10 @@ THEN I find a concise, descriptive title
 
 ## Website 
 
-    https://github.com/MichaelZimm20/html-css-challenge-one
+    Github Link : https://github.com/MichaelZimm20/html-css-challenge-one
 
-    https://michaelzimm20.github.io/Horiseon-refactor-challenge-one/
-    
+    Deployable Live Link: https://michaelzimm20.github.io/Horiseon-refactor-challenge-one/
+
 
 
 ## Git
